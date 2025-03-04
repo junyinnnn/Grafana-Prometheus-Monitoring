@@ -114,7 +114,7 @@ services:
       org.label-schema.group: "monitoring"
 
   caddy:
-    image: caddy:v1.0.3
+    image: caddy:latest
     container_name: caddy
     ports:
       - "3000:3000"
